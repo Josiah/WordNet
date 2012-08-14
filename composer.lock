@@ -1,14 +1,25 @@
 {
-    "hash": "dce2a335c6756ac27c3e66d8ddfbadc5",
+    "hash": "e82052435804805b0460abf6d4d70ddf",
     "packages": [
-
+        {
+            "package": "symfony/process",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/process",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC1",
+            "commit-date": "1343512949"
+        }
     ],
     "packages-dev": null,
     "aliases": [
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ]
+    "stability-flags": {
+        "symfony/process": 20
+    }
 }
